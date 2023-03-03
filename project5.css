@@ -1,0 +1,184 @@
+body {
+    background-color: #09172b;
+}
+
+.about {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+
+.curriculo {
+    text-align:justify;
+}
+
+hr {
+    width: 70%;
+}
+
+.me{
+    height: 150px;
+    width:150px;    
+    border-radius: 100px;
+    border-style:inset;
+    border-width: 8px;
+    margin-top: 30px;
+}
+
+.usa {
+    width:40px;
+    height:40px;
+}
+
+.spain {
+    width:40px;
+    height:40px;
+}
+
+.brazil {
+    width:36px;
+    height:36px;
+}
+
+.exp {
+    text-align: justify;
+}
+
+#menu {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+#list1 {
+    display:flex;
+    color: #e4e6eb;
+    margin-bottom: 30px;
+}
+
+#list1 .click1{
+   font-size: 1.1em;
+   margin-top: 7px;
+   margin-left: 4px;
+}
+
+.bi-instagram:hover{
+ color:blue;
+}
+
+.bi-linkedin:hover{
+    color:blue;
+   }
+
+   .bi-github:hover{
+    color:blue;
+   }
+
+#list1 .link{
+    display: flex;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color:#e4e6eb; 
+ }
+
+ #list1 .link:hover {
+    color: blue;
+ }
+
+ #list2 {
+    text-align: left;
+    display:flex;
+    color: #e4e6eb;
+}
+
+#list2 .click2{
+   font-size: 1.1em;
+   margin-top: 7px;
+   margin-left: 4px;
+}
+
+#list2 .link{
+    display: flex;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color:#e4e6eb; 
+ }
+
+ #list2 .link:hover {
+    color: blue;
+ }
+
+ .naruto {
+    position:absolute;
+    transform:rotate(90deg);
+ }
+
+ @media (max-width:768px) {
+    #list1 { justify-content: center;
+
+    }
+
+ }
+
+ @media (max-width:768px) {
+    #list2 { justify-content: center;
+
+    }
+
+ }
+
+ @media (max-width:768px) {
+    h3 { text-align: center;
+
+    }
+
+ }
+
+ @media (max-width:768px) {
+    hr { width:100%;
+ }
+
+ }
+
+ @media (max-width:768px) {
+    .about { text-align:justify;
+        padding-left: 20px;
+        padding-right: 20px;
+
+ }
+
+ }
+
+ @media (max-width:768px) {
+    .curriculo { text-align:justify;
+        padding-left: 20px;
+        padding-right: 20px;
+
+ }
+
+ }
+
+ @media (max-width:768px) {
+    h2 { text-align: center;
+
+ }
+
+ }
+
+ form {
+    display: inline;
+ }
+
+ #buttonflag { 
+    border: none;
+    background-color: #09172b;
+    padding-left: 0;
+    padding-right: 0;
+
+ }
+
+

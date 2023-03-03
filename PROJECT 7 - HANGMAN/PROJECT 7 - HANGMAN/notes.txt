@@ -1,0 +1,29 @@
+const bt = document.getElementById('bt')
+
+function image1(){
+    const newImage1 = document.createElement("img")
+    newImage1.setAttribute('id','img1')
+    newImage1.src = "https://i.ibb.co/WFNJZns/HANGMAN-1-removebg-preview.png"
+    const localGame = document.getElementById("localGame")
+    localGame.appendChild(newImage1)
+}
+
+for(let a of bt){
+a.addEventListener('click',image1)
+}
+-------------
+function name() {
+    const randomNumber = Math.floor(Math.random()*4)
+    const selectedName = names[randomNumber]
+    const split  = selectedName.split("")
+const newSpan = []
+    for(let i = 0;i < split.length; i ++){
+        newSpan[i] = document.createElement("span")
+        newSpan[i].innerText = split[i]
+        const gameHappens = document.getElementById("letters")
+        letters.appendChild(newSpan[i])
+    }
+}
+
+const namesTrig = document.getElementById('names');  
+namesTrig.addEventListener('click', name());

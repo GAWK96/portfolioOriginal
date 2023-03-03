@@ -1,0 +1,144 @@
+body {
+    background-image: url("https://i.ibb.co/8XDxSgK/4317878.jpg"); 
+    background-size: cover;
+    text-align:center ;
+ }
+
+ #newImage1{
+    width: 100%;
+    height: auto;
+ }
+
+ #img2 {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+#gameHappens{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+#names, #animals, #countries, #foods{
+   border-radius: 8px;
+   border-width: 5px;
+   height: 50px;
+   width: 120px;
+   border-color: black;
+   font-family: 'Gloria Hallelujah', cursive;
+   transition-duration: 0.3s;
+}
+
+ #choose{
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+}
+
+#menu{
+    text-align: center;
+    justify-content: center;
+}
+
+#gameHappens #spans{
+    border-bottom-style: solid;
+    margin: 3px;
+ }
+
+ #gameHappens #letters{
+    position: absolute;
+    bottom: 90px;
+    right:0px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 50px;
+ }
+
+ #select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ h3 {
+    margin-right: 30px;
+    font-family: 'Gloria Hallelujah', cursive;
+ }
+
+ #options {
+    border-radius: 8px;
+    border-width: 5px;
+    height: 50px;
+    width: 80px;
+    border-color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-right: 30px;
+    color: rgb(36, 111, 6);
+ }
+
+ #check{
+    border-radius: 8px;
+    border-width: 5px;
+    margin-right: 10px;
+    height: 50px;
+    width: 150px;
+    border-color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    transition-duration: 0.3s;
+ }
+
+ #reset{
+   border-radius: 8px;
+   border-width: 5px;
+   margin-right: 10px;
+   height: 50px;
+   width: 150px;
+   border-color: black;
+   font-family: 'Gloria Hallelujah', cursive;
+   transition-duration: 0.3s;
+}
+
+#main{
+   border-radius: 8px;
+   border-width: 5px;
+   height: 50px;
+   width: 150px;
+   border-color: black;
+   font-family: 'Gloria Hallelujah', cursive;
+   transition-duration: 0.3s;
+}
+
+#right{
+   font-family: 'Gloria Hallelujah', cursive;
+}
+
+#right p{
+   font-size: 30px;
+   margin-top: 15px;
+}
+
+@media (max-width: 900px) {
+   #names, #animals, #countries, #foods {
+      width: 70px;
+      font-size: 12px;
+   }
+
+   #gameHappens {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+   }
+   
+   #select {
+      flex-direction: column;
+   }
+}
+
+#names:hover:enabled, #animals:hover:enabled, #countries:hover:enabled, #foods:hover:enabled, #check:hover:enabled, #reset:hover, #main:hover {
+   background-color: black;
+   color: white;
+}
+

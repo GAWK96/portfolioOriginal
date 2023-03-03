@@ -1,0 +1,46 @@
+html {
+    scroll-padding-top: 100px;
+    scroll-behavior: smooth;
+}
+
+@media (max-width:768px) {
+
+    html {scroll-padding-top: 290px;
+}
+}
+
+
+a.nav-link{
+    color: gray;
+}
+
+body {
+    margin-top: 50px;
+}
+
+p {
+    padding: 40px;
+}
+
+ul {
+    font-size: 1.2rem;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.footer {
+    transform: rotate(90deg);
+}
+
+
+@media (max-width:768px) {
+     body   {
+        margin-top: 230px;
+     }
+}
+
+.ImgIcon {
+    width:100px;
+}

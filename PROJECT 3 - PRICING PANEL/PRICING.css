@@ -1,0 +1,147 @@
+html {
+    background-color: aqua;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    /*width: 1000px;
+    height: 550px;*/
+    justify-content: center;
+    background-color: white;
+
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.div1 {
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 40px;
+ }
+
+ .div2 {
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 40px;
+ }
+
+ .div3 {
+    align-content: center;
+    text-align: center;
+    width: 200px;
+    height: 400px;
+    padding: 40px;
+ }
+
+ .section1 {
+    text-align: center;
+    height: 220px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.0em;
+    color: gray;
+    font-weight: 700;
+ }
+
+ .section2{
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    color: rgb(41, 188, 233);
+    font-weight: 600;
+    height: 120px;
+ }
+
+ .section3{
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    color: rgb(41, 188, 233);
+    font-weight: 700;
+ }
+
+ .hr2{
+    transform: rotate(180deg);
+    margin:20px;
+    height: 500px;
+    
+    
+ }
+img {
+    width: 200px;
+}
+
+.b1 {
+    font-family: 'Open Sans', sans-serif;
+    width: 150px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    border-color: rgb(41, 188, 233);
+    color: rgb(41, 188, 233);
+    transition:0.25s;
+}
+
+.b1:hover{
+    border-color: white;
+    background-color: rgb(41, 188, 233);
+    color:white;
+    transform:translateY(-10px);
+    cursor: pointer;
+}
+
+.b2 {
+    font-family: 'Open Sans', sans-serif;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(41, 188, 233);
+    border-radius: 20px;
+    border-color: rgb(41, 188, 233);
+    color: white;
+    transition:0.25s;
+}
+
+.b2:hover{
+    border-color: rgb(41, 188, 233);
+    background-color: white;
+    color:rgb(41, 188, 233);
+    transform:translateY(-10px);
+    cursor: pointer;
+}
+
+
+@media (max-width: 950px) {
+     section {
+        flex-direction: column;
+     }
+
+     .hr2 {
+        width: 0px;
+        height:0px;
+        visibility: hidden;
+     }
+
+     .div3 {
+        height: 500px;
+     }
+}
+
+ 
+  
+

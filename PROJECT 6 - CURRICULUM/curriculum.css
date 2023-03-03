@@ -1,0 +1,70 @@
+.rounded-circle {
+    width:100%;
+    height:auto;
+    max-width: 200px;
+    border-style: inset;
+    border-color: crimson;
+    border-width: 7px;
+    border-
+}
+
+h1 {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+h6 {
+    color: #6b6963;
+}
+
+
+header {
+    display:grid;
+    justify-content: center;
+}
+
+#divHeader {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#main {
+    display:grid;
+    grid-template-columns: 2fr 4fr 3fr 2fr;
+}
+
+.left {
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+}
+
+.right {
+    text-align: left;
+    font-family: 'Cairo', sans-serif;
+}
+
+p {
+    color: #6b6963;
+}
+
+hr.items {
+    width:50%;
+}
+
+#usa {
+    width:43px;
+}
+
+#brazil {
+    width:40px;
+}
+
+#spain {
+    width:45px;
+}
+
+#skills {
+    display:flex;
+    justify-content:space-between;
+}

@@ -1,0 +1,48 @@
+body {
+   background-image: url("https://i.ibb.co/8XDxSgK/4317878.jpg"); 
+   background-size: cover;
+}
+
+#img {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+#category{
+    margin-top: 5px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+}
+
+#middle{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#start{
+    width:200px;
+    height: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+#signature{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+    transform: rotate(-30deg)
+}
+
+@media (max-width: 900px) {
+    #signature {
+        font-size: 15px;}
+}
+
+#start:hover {
+    background-color: black;
+    color: white;
+}
