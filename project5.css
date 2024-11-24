@@ -51,6 +51,25 @@ hr {
     margin-top: 20px;
 }
 
+.row .skillsSection {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+.row .skillsSection .skills {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 5px;
+   margin-left: 5px;
+}
+
+.row .skills .skillsImage {
+   width:40px;
+   height: 40px;
+   margin-right: 5px;
+}
+
 
 #list1 {
     display:flex;
@@ -169,6 +188,24 @@ hr {
 
  }
 
+  @media (min-width:768px) {
+      .row .skillsSection{
+      display: grid;
+         grid-template-columns: 1fr 1fr;
+         margin-left: 15px;
+
+     }
+   }
+
+       @media (max-width:768px) {
+          .row .skillsSection {
+            display: grid;
+               grid-template-columns: 1fr;
+               margin-left: 15px;
+   
+          }
+       }
+
  form {
     display: inline;
  }
@@ -180,5 +217,7 @@ hr {
     padding-right: 0;
 
  }
+
+
 
 
